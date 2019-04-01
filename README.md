@@ -7,17 +7,32 @@ Increase Array when last bit reach band, it it useful when solve N-Sum problem.
 
 Increase numberArray from lower digit to higher digit, and return Number Array.
 
-**numberArray**, A Number Array
+**numberArray** {Integer Array}, A Number Array
 
-**band**, Band, when current digit reach band, the digit would reset to 0, and last digit(higher digit) would increase 1.
+**band** {Integer Number}, Band, when current digit reach band, the digit would reset to 0, and last digit(higher digit) would increase 1.
 
-#### increaseGreaterThanUpper(numberArray, band)
 
-**numberArray**, A Number Array
 
-**band**, Band, when current digit reach band,  and last digit(higher digit) would increase 1, and current digit would reset to {last digit + 1}.
+### increaseGreaterThanUpper(numberArray, band)
 
-##Example
+**numberArray** {Integer Array}, A Number Array
+
+**band** {Integer Number}, Band, when current digit reach band,  and last digit(higher digit) would increase 1, and current digit would reset to {last digit + 1}.
+
+
+
+### repeat(times, increaseFunction, numberArray, band)
+
+**times** {Integer}, repeat times
+
+**increaseFunction** {Function}, one of ['increase', 'increaseGreaterThanUpper']
+
+**numberArray**
+
+**band**
+
+
+## Example
 
 ```
   const {increase, increaseGreaterThanUpper, repeat} = require('../');
