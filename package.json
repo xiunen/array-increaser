@@ -1,0 +1,23 @@
+{
+  "name": "array-increaser",
+  "version": "1.0.0",
+  "description": "Increase Array when last bit reach band, it it useful when solve N-Sum problem",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiunen/array-increaser.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiunen/array-increaser/issues"
+  },
+  "homepage": "https://github.com/xiunen/array-increaser#readme",
+  "devDependencies": {
+    "jest": "^24.5.0"
+  }
+}
